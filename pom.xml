@@ -359,7 +359,7 @@
                                         <additionalparam>
                                             -inferrel -inferdep -hide java.* -collpackages
                                             java.util.* -attributes -operations
-                                            -enumerations -enumconstants
+                                            -enumerations -enumconstants -Xdoclint:none
                                         </additionalparam>
                                     </configuration>
                                 </plugin>
@@ -482,7 +482,7 @@
                             <additionalparam>
                                 -inferrel -inferdep -hide java.* -collpackages
                                 java.util.* -attributes -operations
-                                -enumerations -enumconstants
+                                -enumerations -enumconstants -Xdoclint:none
                             </additionalparam>
                         </configuration>
                     </plugin>
